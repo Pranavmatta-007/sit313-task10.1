@@ -1,0 +1,75 @@
+.main_container {
+    background-color: #83cece;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .lower_footer h2 {
+    text-align: center;
+  }
+  .content_lower {
+    display: flex;
+    justify-content: space-around;
+  }
+  .content_lower li {
+    list-style: none;
+    font-weight: bolder;
+  }
+  
+  .logo {
+    height: 30px;
+    width: 30px;
+  }
+  
+  .logo ul {
+    display: flex;
+    justify-content: space-around;
+    min-width: 100px;
+    list-style: none;
+  }
+  .logo ul li{
+    margin: 0px 3px;
+  }
+  .logo ul li img{
+    background-color: #c7c3c3;
+
+  }
+  
+  .upper_footer {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .Explore {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .Explore ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .Support {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .Support ul {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .Support ul li {
+    cursor: pointer;
+    margin: 4px 0px;
+    font-weight: bolder;
+  }
+  .Explore ul li {
+    cursor: pointer;
+    margin: 4px 0px;
+    font-weight: bolder;
+  }
+  
